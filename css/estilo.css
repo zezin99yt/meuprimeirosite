@@ -29,3 +29,27 @@ figure{
 
      width: 50%;
 }
+
+a:link {
+    color: aliceblue;
+}
+
+/* visted link */
+a:visited {
+    color: aliceblue;
+}
+
+/* mouse over link */
+a:visited {
+     color: aliceblue;
+}
+
+/* selected link */
+a:active {
+    color: aliceblue;
+}
+
+footer {
+
+    background-color: aqua;
+}
