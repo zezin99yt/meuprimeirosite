@@ -25,11 +25,12 @@ background-color:#686868 ;
 }
 
 h1,h2{
-    color: rgb(255, 255, 255);
+    color: #B0E0E6;
     text-align: center;
     font-size: 2em;
     margin-top: 1.3%;
     margin-bottom: 1.3%;
+    font-family: 'Kanit', sans-serif;
 }
 
 figure{
@@ -65,31 +66,35 @@ p{
   
 /* unvisited link */
  a:link {
-    color: slateblue; 
+    color: rgba(0, 252, 252, 0.486); 
   }
   
   /* visited link */
   a:visited {
-    color:#98FB98; 
+    color:#00ffff; 
  
   }
   
   /* mouse over link */
   a:hover {
-    color:	#FFFACD; 
+    color:	#00f7ff; 
 
   }
   
   /* selected link */
   a:active {
-    color:darkseagreen; 
+    color:rgb(0, 255, 255); 
   }
   
 
 footer {
-    background-color: #FF6347;
-    padding: 1.3%;
+    background-color: #413d3c;
+    padding: 0,9%;
     text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .img_direita{
