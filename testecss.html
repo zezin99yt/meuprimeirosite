@@ -13,14 +13,95 @@
             background-color: beige;
         }
          p{
-         background-color: aqua;
+         background-color: rgb(51, 87, 87);
         }
+        .container{
+            position:relative;
+            background-color: rgb(140, 128, 151);
+            width: 100%;
+            height: 1220px;
+            text-align: center;
+        }
+
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(0, 204, 255);
+
+        }
+
+        .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(78, 20, 20);
+
+        }
+
+        .baixoesquerda{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: rgb(85, 85, 49);
+
+        }
+
+        
+        .baixodireita{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color:rgb(90, 109, 109);
+
+        }
+
+        .centro{
+            position: absolute;
+            width: 20%;
+            background-color:rgb(143, 112, 112);
+            top: 610px;
+            right: 40%;
+
+
+        }
+
+        .fixa{
+
+            position: fixed;
+            top: 0;
+            z-index: 1030;
+            right: 0;
+            left: 0;
+        }
+
      </style>
 </head>
 <body>
+    <header>
     <h1 style="border-color: blueviolet; border-style: groove;">Teste CSS interno e inline</h1>
     <p style="border-color: bisque;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dignissimos esse laboriosam illo animi veritatis impedit aliquid porro odit, ullam, aut recusandae sunt laborum pariatur exercitationem minus nam explicabo dicta!</p>
     <p style="border-color: bisque;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae pariatur eius, tempora omnis fuga ipsum tempore laboriosam, quibusdam libero quos illum voluptas aperiam, natus at sint ad sed accusantium est.</p>
+    </header>
     
+    <div class="main">
+        <h1>Testando....</h1>
+        <div class="container">
+            <div class="topoesquerda">TopoEsq</div>
+            <div class="topodireita">TopoDir</div>
+            <div class="baixoesquerda">BaixoEsq</div>
+            <div class="baixodireita">BaixoDir</div>
+            <div class="centro">Centro</div>
+        </div>
+
+    </div>
  </body>
 </html>
