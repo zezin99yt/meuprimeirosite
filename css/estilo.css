@@ -6,6 +6,18 @@ body{
 background-color:#8d8d8d ;    
 }
 
+header{
+  position: fixed;
+  width: 100%;
+}
+
+.menu{
+  background-color: rgba(9, 7, 6, 0.3);
+   padding: 2%;
+   font-family: 'Permanent Marker', cursive;
+
+}
+
 .itens_menu{
     text-align: center;
     line-height: 1.5;
@@ -42,6 +54,15 @@ figure{
 .container{
     width:70%;
     margin: auto;
+}
+
+.logo{
+  text-align: center;
+}
+
+.img_logo{
+  width: 10%;
+  float: left;
 }
 
  .img_topo{
